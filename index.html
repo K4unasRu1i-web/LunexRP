@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunexRP | Lietuvos ER:LC Roleplay</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080808;
+            color: white;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px 20px;
+            background:
+                radial-gradient(circle at top, #5e0000 0%, #180000 35%, #080808 75%);
+        }
+
+        .container {
+            max-width: 900px;
+        }
+
+        .logo {
+            font-size: 60px;
+            font-weight: 900;
+            letter-spacing: 4px;
+            color: #ff1e1e;
+            text-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            font-size: 21px;
+            color: #cccccc;
+            margin-bottom: 35px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            text-decoration: none;
+            color: white;
+            background: #d40000;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #ff1e1e;
+            transform: translateY(-3px);
+        }
+
+        .button.dark {
+            background: #171717;
+            border: 1px solid #333;
+        }
+
+        section {
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .red {
+            color: #ff1e1e;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto 0;
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #292929;
+            padding: 30px 20px;
+            border-radius: 15px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #ff2929;
+        }
+
+        .card p {
+            color: #aaa;
+            line-height: 1.5;
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            background: #050505;
+            color: #777;
+            border-top: 1px solid #1d1d1d;
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                font-size: 42px;
+            }
+
+            .subtitle {
+                font-size: 17px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">LUNEXRP</div>
+
+        <div class="subtitle">
+            🇱🇹 Lietuvos ER:LC Roleplay serveris
+        </div>
+
+        <div class="buttons">
+            <a href="#" class="button">🎮 Prisijungti</a>
+            <a href="#" class="button dark">💬 Discord</a>
+        </div>
+    </div>
+</header>
+
+<section>
+    <h2>Apie <span class="red">LunexRP</span></h2>
+
+    <p style="color:#aaa; max-width:700px; margin:auto; line-height:1.7;">
+        LunexRP – Lietuvos ER:LC Roleplay serveris,
+        kuriame kiekvienas žaidėjas gali kurti savo istoriją,
+        dirbti skirtingose tarnybose ir mėgautis tikrovišku roleplay.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>👮 Policija</h3>
+            <p>
+                Tvarkos palaikymas, patruliavimas ir įvairios policijos RP situacijos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚒 Priešgaisrinė</h3>
+            <p>
+                Reagavimas į gaisrus, avarijas ir kitas ekstremalias situacijas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚑 Medikai</h3>
+            <p>
+                Pagalba nukentėjusiems žaidėjams ir medicininis roleplay.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚗 Regitra</h3>
+            <p>
+                Transporto priemonių registracija ir dokumentų tvarkymas.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 LunexRP • Lietuvos ER:LC Roleplay
+</footer>
+
+</body>
+</html>
